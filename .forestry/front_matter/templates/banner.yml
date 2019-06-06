@@ -1,4 +1,24 @@
 ---
 label: Banner
 hide_body: false
-fields: []
+fields:
+- name: headline_1
+  type: text
+  config:
+    required: false
+  label: Headline 1
+  description: Gros titre
+- name: subheadline
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subheadline
+  description: Titre dessous
+- name: images_banner
+  type: image_gallery
+  config: {}
+  label: Images banner
