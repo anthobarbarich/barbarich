@@ -23,4 +23,4 @@ fields:
   config: {}
   label: Images banner
 pages:
-- content/banner.md
+- content/_index.md
